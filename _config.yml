@@ -21,17 +21,20 @@
 title: elise colter
 email: elisecolter@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm currenty a rising senior in CS at Princeton University and
+  I'm currently a rising senior in CS at Princeton University and
   summer intern at Bloomberg LP.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elisecolter.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: elisecolter
 github_username:  elisecolter
+logo: "/favicon-32x32.png"
 
 # Build settings
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.20.1"
+minimal_mistakes_skin: "dark"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
